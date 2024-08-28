@@ -1,0 +1,10 @@
+
+public class Vehicle {
+	int passengers; // números de passageiros
+	int fuelcap; // capacidade de armazenamento de combustível em ga~lões
+	int mpg; //consumo de combustível em milhas por galão
+	
+	void range() {
+		System.out.println("Range is " + fuelcap * mpg);
+	}
+}
