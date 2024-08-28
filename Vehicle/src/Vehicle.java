@@ -4,6 +4,12 @@ public class Vehicle {
 	int fuelcap; // capacidade de armazenamento de combustível em ga~lões
 	int mpg; //consumo de combustível em milhas por galão
 	
+	Vehicle(int p, int f, int m) {
+		passengers = p;
+		fuelcap = f;
+		mpg = m;
+	}
+	
 	int range() { // retorna a autonomia
 		return mpg * fuelcap;
 	}
